@@ -1,11 +1,14 @@
-import { isColor } from "./color";
 import { defined, defaultValue } from "./judge"
+import { isColorHex, hexToRgba } from "./color";
 import { validateEmail } from "./validate"
 import { arrayUnique } from "./array"
+import { jsonToUrlParams } from "./jsonToUrlParams"
 export default {
-    isColor,
+    isColorHex,
+    hexToRgba,
     defined,
     defaultValue,
     validateEmail,
-    arrayUnique
+    arrayUnique,
+    jsonToUrlParams
 }

@@ -1,7 +1,7 @@
 {
-  "name": "quickKit",
+  "name": "quick-kit",
   "version": "1.0.1",
-  "description": "quickKit是一个快速和易于使用的前端JS工具库",
+  "description": "quick-kit是一个快速和易于使用的前端JS工具库",
   "main": "./lib/qk.cjs.js",
   "module": "./lib/qk.esm.js",
   "browser": "./lib/qk.browser.js",

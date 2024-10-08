@@ -3,5 +3,12 @@
  * @param value
  * @returns boolean
  */
-declare const isColor: (value: string) => boolean;
-export { isColor };
+declare const isColorHex: (value: string) => boolean;
+/**
+ * @description 将十六进制字符串转为rgba
+ * @param hex
+ * @param alpha
+ * @returns string
+ */
+declare const hexToRgba: (hex: string, alpha?: number) => string;
+export { isColorHex, hexToRgba };
