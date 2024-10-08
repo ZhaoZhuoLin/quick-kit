@@ -1,0 +1,54 @@
+{
+  "name": "QuickKit",
+  "version": "1.0.0",
+  "description": "快速和易于使用的前端JS工具库",
+  "main": "./lib/qk.cjs.js",
+  "module": "./lib/qk.esm.js",
+  "browser": "./lib/qk.browser.js",
+  "types": "lib/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint . --ext .js,.ts --fix",
+    "serve": "rollup -c -w",
+    "build": "rollup -c",
+    "publish": "npm publish",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "keywords": [
+    "lib",
+    "npm",
+    "node",
+    "js",
+    "ts",
+    "quick",
+    "rollup",
+    "quickKit",
+    "qk"
+  ],
+  "author": "zhaozhuolin",
+  "license": "ISC",
+  "repository": "https://github.com/KenNaNa/toolkit-use.git",
+  "homepage": "https://kennana.github.io/toolkit-use",
+  "devDependencies": {
+    "rollup": "^4.21.1",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-eslint": "^7.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-sourcemaps": "^0.6.3",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "tslib": "^2.7.0",
+    "typescript": "^5.5.4",
+    "vitepress": "^1.4.0"
+  },
+  "dependencies": {
+    "awm-util-test": "file:"
+  },
+  "files": [
+    "lib",
+    "package.json",
+    "README.md"
+  ]
+}
