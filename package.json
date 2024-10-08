@@ -1,7 +1,7 @@
 {
-  "name": "QuickKit",
-  "version": "1.0.0",
-  "description": "快速和易于使用的前端JS工具库",
+  "name": "quickKit",
+  "version": "1.0.1",
+  "description": "quickKit是一个快速和易于使用的前端JS工具库",
   "main": "./lib/qk.cjs.js",
   "module": "./lib/qk.esm.js",
   "browser": "./lib/qk.browser.js",
@@ -29,8 +29,8 @@
   ],
   "author": "zhaozhuolin",
   "license": "ISC",
-  "repository": "https://github.com/KenNaNa/toolkit-use.git",
-  "homepage": "https://kennana.github.io/toolkit-use",
+  "repository": "https://github.com/ZhaoZhuoLin/quickKit.git",
+  "homepage": "https://github.com/ZhaoZhuoLin/quickKit.git",
   "devDependencies": {
     "rollup": "^4.21.1",
     "rollup-plugin-commonjs": "^10.1.0",
